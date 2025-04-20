@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Person">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title itemprop="name">Zaid Waseem - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #e6f2ff;
+            /* Light Blue Background */
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #005b99;
+            /* Deep blue line for contrast */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #003366;
+            /* Darker blue for contrast */
+        }
+
+        .contact-info p,
+        .contact-info a {
+            color: #004d80;
+            margin: 4px 0;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            background-color: #cce6ff;
+            /* Light blue header block */
+            padding: 8px 12px;
+            border-left: 6px solid #005b99;
+            color: #003366;
+            border-radius: 4px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        p {
+            color: #333333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 itemprop="name">Zaid Waseem</h1>
+            <div class="contact-info">
+                <p><strong>Mobile:</strong> <span itemprop="telephone">030499821834</span></p>
+                <p><strong>Email:</strong> <a href="mailto:zaidwaseem9371@gmail.com"
+                        itemprop="email">zaidwaseem9371@gmail.com</a>
+                </p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zaidwaseem7/" target="_blank"
+                        itemprop="url">Zaid Waseem</a></p>
+                <p><strong>Profession:</strong> <span itemprop="jobTitle">React Developer</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p itemprop="alumniOf"><strong>University of Sargodha</strong><br>Undergraduate (2021 – 2025)</p>
+        </div>
+
+        <div class="section" itemscope itemtype="https://schema.org/Skill">
+            <h2>Professional Skills</h2>
+            <p><strong>Languages:</strong> <span itemprop="knowsAbout">React, Django, Node.js, Express, MongoDB</span>
+            </p>
+            <p><strong>Tools:</strong> <span itemprop="knowsAbout">Visual Studio Code, Git, GitHub, Postman,
+                    Swagger</span></p>
+            <p><strong>Platforms:</strong> <span itemprop="knowsAbout">Firebase, MongoDB, MySQL</span></p>
+            <p><strong>Soft Skills:</strong> <span itemprop="knowsAbout">Highly Motivated, Quick Learner, Excellent
+                    Communication, Team Player</span></p>
+        </div>
+
+        <div class="section" itemscope itemtype="https://schema.org/JobPosting">
+            <h2>Work Experience</h2>
+            <p><strong itemprop="title">Junior React Developer</strong> (Dec 01, 2023 - May 02, 2024)<br>
+                <span itemprop="hiringOrganization">Wjiks Company</span>, Islamabad, Pakistan
+            </p>
+            <ul>
+                <li itemprop="responsibilities">Developed and maintained scalable React applications using JavaScript,
+                    JSX, CSS, and HTML.</li>
+                <li itemprop="responsibilities">Implemented reusable React components and optimized component lifecycle
+                    for performance.</li>
+                <li itemprop="responsibilities">Integrated RESTful APIs and handled asynchronous data fetching using
+                    Axios and Fetch API.</li>
+                <li itemprop="responsibilities">Collaborated with UI/UX designers to translate design wireframes into
+                    functional React components.</li>
+                <li itemprop="responsibilities">Debugged and resolved React-specific technical issues including state
+                    management and component rendering.</li>
+                <li itemprop="responsibilities">Kept up to date with modern React libraries, hooks, and best practices
+                    for frontend development.</li>
+                <li itemprop="responsibilities">Maintained clear and structured documentation for React components and
+                    frontend logic.</li>
+                <li itemprop="responsibilities">Participated in code reviews to ensure adherence to React development
+                    standards and clean code principles.</li>
+            </ul>
+        </div>
+
+        <div class="section" itemscope itemtype="https://schema.org/CreativeWork">
+            <h2>Projects</h2>
+
+            <p><strong itemprop="name">Doctor + Lab Online Appointment App (React)</strong></p>
+            <ul>
+                <li itemprop="description">Designed and developed a user-friendly interface for scheduling appointments
+                    using React and CSS.</li>
+                <li itemprop="description">Implemented dynamic routing and state management for booking and editing
+                    multiple appointments.</li>
+                <li itemprop="description">Created summary and analytics pages using reusable React components and chart
+                    libraries.</li>
+                <li itemprop="description">Integrated Firebase as the backend for real-time data storage and
+                    authentication.</li>
+            </ul>
+
+            <p><strong itemprop="name">Weather App (React)</strong></p>
+            <ul>
+                <li itemprop="description">Developed a responsive React-based weather app allowing users to search by
+                    city name.</li>
+                <li itemprop="description">Fetched real-time weather data using OpenWeatherMap API and handled
+                    asynchronous calls with Axios.</li>
+                <li itemprop="description">Displayed detailed current day weather with conditional rendering and
+                    component-based UI.</li>
+                <li itemprop="description">Ensured mobile-first design with Flexbox and media queries for full
+                    responsiveness.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
